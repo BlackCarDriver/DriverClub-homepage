@@ -1,5 +1,5 @@
 .cover-image {
-   background-image: url(https://desk-fd.zol-img.com.cn/t_s960x600c5/g2/M00/06/0B/ChMlWlzve4WIIQ7xAAbseRnLiJ0AAKUfwBXDh8ABuyR580.jpg); 
+   background-image: url(https://desk-fd.zol-img.com.cn/t_s1024x768c5/g5/M00/02/01/ChMkJ1bKxQyIMSwrAAc7lzlGgBsAALHQAI-9mwABzuv397.jpg); 
     z-index: -1;
     position: fixed;
     top: 0px;
@@ -37,16 +37,14 @@
     background-color: inherit;
     font-size: larger;
  }
- .areaimg{
-    height: 100%;
-    position: absolute;
-    bottom: -20px;
-    right: 0px;
-    z-index: 1;
+#areaimg{
+   height: 120%;
+   position: absolute;
+   bottom: -20px;
+   right: 0px;
+   z-index: 1;
  }
- .areaimg>h1{
-     z-index: 2;
- }
+
  .blue{
     background-color: #1546c2!important;
  }
@@ -58,11 +56,23 @@
  }
 
  .mojang-footer {
-    background: #000;
-    background-color: rgb(0, 0, 0);
+    background-color: #313131;
     color: #757575;
-    padding: 27px 0 25px;
+    padding: 27px 0px;
+    position: i;
+    margin: 0px;
+    position: relative;
+    top: 80px;
 }
 a{
     text-decoration : none;
+}
+.navbar-brand>img {
+   position: relative;
+   top: -12px;
+   height: 38px;
+}
+.title{
+   color: #fff;
+   font-size: 1.7em;
 }
