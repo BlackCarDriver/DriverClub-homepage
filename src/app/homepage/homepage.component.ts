@@ -9,19 +9,25 @@ declare var $:any;
 })
 export class HomepageComponent implements OnInit {
   constructor() { }
-
   ngOnInit() {
     
+    var already = 2;
+    $("#foot").mouseenter(function(){
+      if(already !=2 ) return;
+      $(this).animate({height:'100px'},1000,function(){already=1;}
+      );
+    });
+
+    $("#foot").mouseleave(function(){
+      if(already !=1 ) return;
+      $(this).animate({height:'15px'},1000,function(){already=2;});
+    });
   }
 
-  show(){
-    let footer = document.getElementById('foot');
-    footer.style.height="100px";
-  }
-  hide(){
-    let footer = document.getElementById('foot');
-    footer.style.height="30px";
-  }
+  
+  
 
+
+  
 
 }

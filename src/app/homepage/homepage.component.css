@@ -1,33 +1,68 @@
 .cover-image {
-   background-image: url(https://unsplash.imgix.net/photo-1418065460487-3e41a6c84dc5?q=25&amp;fm=jpg&amp;s=127f3a3ccf4356b7f79594e05f6c840e); 
+   background-image: url(https://desk-fd.zol-img.com.cn/t_s960x600c5/g2/M00/06/0B/ChMlWlzve4WIIQ7xAAbseRnLiJ0AAKUfwBXDh8ABuyR580.jpg); 
     z-index: -1;
-    position: absolute;
+    position: fixed;
     top: 0px;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
 }
-.nav{
-    background-color: rgba(215, 250, 227, 0.22);
-    margin: 0px;
+ .area{
+    text-transform: uppercase;
+    text-shadow: 0 2px 0 rgba(0,0,0,.25);
+    color: #fff!important;
+    background: linear-gradient(transparent,rgba(49,49,49,.5));
+    text-shadow: 0 2px 0 rgba(0,0,0,.25);
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    height: 200px;
+    font-size: smaller;
+    font-weight: 600;
+    cursor: pointer;
+ }
+.area:hover{
+    height: 210px;
+}
+ .navbar{
+    background-color: #313131;
+ }
 
-}
-#foot{
-    background-color: #000;
-    transition: 60%;
+ .myfont{
+     color: wheat;
+     cursor: pointer;
+ }
+ .myfont:hover{
+    background-color: inherit;
+    font-size: larger;
+ }
+ .areaimg{
+    height: 100%;
     position: absolute;
-    bottom: 0px;
-    height: 30px;
-    width: 100%;
+    bottom: -20px;
+    right: 0px;
+    z-index: 1;
+ }
+ .areaimg>h1{
+     z-index: 2;
+ }
+ .blue{
+    background-color: #1546c2!important;
+ }
+ .yellow{
+    background-color: #ffe000;
+ }
+ .green{
+    background-color: #288123;
+ }
+
+ .mojang-footer {
+    background: #000;
+    background-color: rgb(0, 0, 0);
+    color: #757575;
+    padding: 27px 0 25px;
 }
-@keyframes myfirst
-{
-    from {height: 20px;}
-    to {height: 50px;}
-}
-@-webkit-keyframes myfirst /* Safari 与 Chrome */
-{
-    to {height: 50px;}
-    from {height: 20px;}
+a{
+    text-decoration : none;
 }
