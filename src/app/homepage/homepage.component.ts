@@ -12,11 +12,14 @@ export class HomepageComponent implements OnInit {
   ngOnInit() {
     let width = document.body.clientWidth;
     if(width < 480){
-      let img = document.getElementById("areaimg");
+      let imgs = document.getElementsByClassName("areaimg");
+      for (let i = 0; i < imgs.length; i++) {
+          let img = imgs[i] as HTMLElement;
           img.style.height = "80%";
           img.style.right = "-40px";
+      }
     }
-  }
+}
 
   
   

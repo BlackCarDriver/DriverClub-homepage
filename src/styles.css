@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -100px;
+    /* 等于footer的高度 */
+}
+
+.push{
+    height: 100px;
+}
+
+.mojang-footer{
+    background-color: #313131;
+    color: #757575;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+}
